@@ -4,9 +4,9 @@ module MethodsPracticeHelpers
     # Generate an image tag with the given source and the classes
     # "img-responsive" and "img-thumbnail". The image should also have an alt
     # attribute with the contents of alternate_text.
-    img_src = "#\"{source}\""
+    img_src = "\"#{source}\""
     img_alt = "\"#{alternate_text}\""
-    img_class = "img-responsive img-thumbnail"
+    img_class = "\"img-responsive img-thumbnail\""
     "<img src = #{img_src} alt = #{img_alt} class = #{img_class}/>"
   end
 
